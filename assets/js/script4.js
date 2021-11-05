@@ -9,6 +9,6 @@ var weeks = Math.floor((days % 365) / 7);
 var remainingDays = Math.floor((days % 365) % 7);
 
 // Mostrar Resultado 
-document.write(`Los días ingresados son ${days}. Los años son ${years}. Las semans son ${weeks}. Los días son ${remainingDays}. Gracias!`);
+document.write(`Los días ingresados son ${days}. Los años son ${years}. Las semanas son ${weeks}. Los días son ${remainingDays}. Gracias!`);
 
 
